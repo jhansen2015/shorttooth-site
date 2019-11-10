@@ -7,7 +7,12 @@
         <div>
             <span class="fa-stack fa-1x">
                 <i class="iconBack fas fa-circle fa-stack-2x"></i>
-                <i class="iconTop fas fa-{{ feature.fontawesome_icon_name }} fa-stack-1x"></i>
+		{% if feature.fontawesome_icon_is_brand %}
+			{% assign fa_face_style = "fab" %}
+		{% else %}
+			{% assign fa_face_style = "fas" %}
+		{% endif %}
+		<i class="iconTop {{ fa_face_style }} fa-{{ feature.fontawesome_icon_name }} fa-stack-1x"></i>
             </span>
         </div>
         <div class="featureText">
