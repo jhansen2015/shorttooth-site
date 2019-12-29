@@ -30,7 +30,7 @@ app_price                                 : Free 14-day trial
 app_description                           : |
   Create customized single-click shortcuts to connect to any paired Bluetooth device<br />
   <br />
-  keywords: Android Bluetooth shortcuts widget paired device
+  keywords: Android Bluetooth shortcuts paired device
 
 # Set to true to show a smart app banner at top of page on mobile devices.
 #enable_smart_app_banner                   : true
@@ -47,6 +47,8 @@ facebook_username                         :
 #youtube_username                          :
 
 # Feature List                            Edit, add or remove features to be presented.
+# Browse available icons at:
+# https://fontawesome.com/icons?d=gallery&m=free
 features                                  :
 
   - title                                 : Shortcuts
@@ -65,6 +67,10 @@ features                                  :
   - title                                 : Voice Search
     description                           : Activate configuration using Voice Search (supports Google search bar microphone; does not support use with "Hey, Google")
     fontawesome_icon_name                 : microphone
+
+  - title                                 : Set Volume
+    description                           : Optionally set media, call, ring, and alarm volumes on connect
+    fontawesome_icon_name                 : volume-up
 
 # Theme Settings
 topbar_color                              : "#000000"

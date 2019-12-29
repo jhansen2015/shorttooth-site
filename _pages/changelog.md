@@ -4,6 +4,28 @@ title: What's New
 include_in_header: true
 ---
 
+<a name="1.1.0" />
+## [1.1.0](#1.1.0) TBD
+
+* Bug #181: Connect to new device not disconnecting from old device
+  * Cause: On some devices (Android 8+?), multiple A2DP (media audio) devices may be connected at the same time, but only one can be used for media streaming. In this case, attempting to connect to an already connected device is a no-op.
+  * Solution: If the new device is already connected, disconnect then re-connect, which triggers Android to the newly connected device as the active device for media streaming.
+
+* Feature #153: Edit config
+  * (Android 7.1+ ) The shortcut title and type (e.g. toggle, etc.) can be changed.
+  * (Android 7.0 and older) The shortcut title and type (e.g. toggle, etc.) cannot be changed.
+
+* Feature #175: Convert "Add Shortcut" dialog to activity
+* Feature #173: Toast indicating successful dis/connect
+* Feature #185: Toast indicating unpaired device
+* Feature #186: Allow profiles in transition to settle
+* Feature #71: Set Media volume on connect
+* Feature #177: Set Call volume on connect
+* Feature #178: Set Alarm volume on connect
+* Feature #179: Set Ring volume on connect
+
+Please share any issues encountered!
+
 <a name="0.9.1" />
 ## [0.9.1](#0.9.1) 2019-11-30
 
