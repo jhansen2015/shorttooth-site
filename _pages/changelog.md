@@ -5,7 +5,7 @@ include_in_header: true
 ---
 
 <a name="1.1.0" />
-## [1.1.0](#1.1.0) TBD
+## [1.1.0](#1.1.0) 2020-04-01
 
 * Bug #181: Connect to new device not disconnecting from old device
   * Cause: On some devices (Android 8+?), multiple A2DP (media audio) devices may be connected at the same time, but only one can be used for media streaming. In this case, attempting to connect to an already connected device is a no-op.
