@@ -7,7 +7,7 @@ include_in_header: true
 Issues and suggestions are welcome! See `Settings->Send Feedback`.
 
 <a name="1.1.1" ></a>
-## [1.1.1](#1.1.1) 2020-04-04 (Alpha)
+## [1.1.1](#1.1.1) 2020-04-08
 
 * #249: Remove `ACCESS_FINE_LOCATION` permission.
   * Please accept my sincere apologies for ever thinking this was required!
