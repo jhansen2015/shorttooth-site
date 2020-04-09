@@ -6,6 +6,12 @@ include_in_header: true
 
 Issues and suggestions are welcome! See `Settings->Send Feedback`.
 
+<a name="1.1.2" ></a>
+## [1.1.2](#1.1.2) 2020-04-08
+
+* #256: Fix crash 2 on startup
+* #255: Fix crash 1 on startup
+
 <a name="1.1.1" ></a>
 ## [1.1.1](#1.1.1) 2020-04-08
 
